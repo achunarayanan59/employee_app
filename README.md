@@ -16,5 +16,5 @@ this is a sample project developed to learn database CRED operation in django an
 ```
 ## Run the Project
   ```bash
-    cd employee_app_main
+    cd employee_app
     python manage.py runserver
