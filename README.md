@@ -3,10 +3,8 @@
 Employee App is a Django-based web application for managing information of employees. It allows users to add, edit,view and delete details of employees, 
 this is a sample project developed to learn database CRED operation in django and Model forms. The forms in the project is generated using Model Forms
 
-1. **Clone the Repository**
-
+ **Clone the Repository**
    Clone the repository to your local machine:
-
    ```bash
    https://github.com/achunarayanan59/employee_app.git
    cd employee_app
