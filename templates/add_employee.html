@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'css/add_employee.css'%}">
+</head>
+<body>
+    {%include 'index.html'%}
+    <div class="container mt-5">
+        <form method="post" class="mt-4">
+            {% csrf_token %}
+            {{ emp_form.as_p }}
+            <button type="submit" class="btn btn-primary btn-block mt-4">Add Employee</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
